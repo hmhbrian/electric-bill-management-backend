@@ -26,11 +26,11 @@ Hệ thống cung cấp các API để quản lý các thực thể sau:
 
 Dự án tuân theo cấu trúc chuẩn của Spring Boot:
 
-- `src/main/java/com/example/demo/controller`: Chứa các REST Controller xử lý yêu cầu HTTP.
-- `src/main/java/com/example/demo/entity`: Định nghĩa các thực thể (Models) tương ứng với bảng trong database.
-- `src/main/java/com/example/demo/repository`: Cung cấp các Interface để truy xuất dữ liệu từ database.
-- `src/main/java/com/example/demo/Service`: Chứa các tầng logic nghiệp vụ của ứng dụng.
-- `src/main/java/com/example/demo/DTO`: Chứa các Data Transfer Objects dùng để trao đổi dữ liệu.
+- `controller`: Chứa các REST Controller xử lý yêu cầu HTTP.
+- `entity`: Định nghĩa các thực thể (Models) tương ứng với bảng trong database.
+- `repository`: Cung cấp các Interface để truy xuất dữ liệu từ database.
+- `service`: Chứa các tầng logic nghiệp vụ của ứng dụng.
+- `DTO`: Chứa các Data Transfer Objects dùng để trao đổi dữ liệu.
 
 ## 🛠️ Hướng dẫn cài đặt và chạy ứng dụng
 
